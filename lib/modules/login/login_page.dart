@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:google_sign_in/google_sign_in.dart';
-import 'package:pay_flow/modules/home/home_page.dart';
+import 'package:pay_flow/modules/login/login_controller.dart';
 import 'package:pay_flow/shared/themes/app_colors.dart';
 import 'package:pay_flow/shared/themes/app_images.dart';
 import 'package:pay_flow/shared/themes/app_text_styles.dart';
@@ -15,6 +14,8 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
+  final controller = LoginController();
+
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
@@ -50,19 +51,7 @@ class _LoginPageState extends State<LoginPage> {
                   Padding(
                     padding: const EdgeInsets.only(left: 40, right: 40, top: 40),
                     child: SocialLoginButton(
-                      onTap: () async {
-                        GoogleSignIn _googleSignIn = GoogleSignIn(
-                          scopes: [
-                            'email',
-                          ],
-                        );
-                        try {
-                          final res = await _googleSignIn.signIn();
-                          print(res);
-                        } catch (e) {
-                          print(e);
-                        }
-                      },
+                      onTap: controller.googleSignIn,
                     ),
                   ),
                 ],
