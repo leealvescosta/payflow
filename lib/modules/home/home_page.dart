@@ -9,7 +9,10 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: Container(
-        child: Text("HOME"),
+        child: Center(
+            child: Text(
+          "HOME",
+        )),
       ),
     );
   }
