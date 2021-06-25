@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:pay_flow/app_widget.dart';
+import 'package:pay_flow/models/user_model.dart';
 
 void main() {
   runApp(AppFirebase());
