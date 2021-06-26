@@ -24,8 +24,9 @@
 
 <h2 align="center">About 📖</h2>
 <p>
-   O projeto PayFlow foi desenvolvido na Next Level Week Together 💜💚. Nosso evento incrível que sempre traz projetos inéditos, além da intensa rotina de estudos, muitas conexões e networking, trabalho em grupo e em comunidade. <br>
-   O PayFlow se trata de um app mobile feito em Flutter 💙 para Gerenciamento de Boletos, contendo recursos como o uso de câmera e galeria, Machine Leaning com MLKit, Firebase Core e SignIn, Animações e Estilizações Personalizadas, entre vários outros pontos, como o uso do SharedPreferences. <br>
+  The PayFlow project was developed at Next Level Week Together 💜 💚. <br>
+  Our incredible event that always brings new projects, in addition to the intense study routine, many connections and networking, group and community work.<br>
+    PayFlow is a mobile app made in Flutter for Billet Management, containing features such as the use of camera and gallery, Machine Leaning with MLKit, Firebase Core and SignIn, Custom Animations and Stylizations, among several other points, such as use of SharedPreferences.<br>
 </p>
 
 ---
@@ -38,6 +39,7 @@ The iOS App, not working because have a incompatibility with Firebase Core ^1.1.
    ```
    - Flutter version used:
       Channel dev, 2.3.0-24.0.pre
+      Need a json file generated on Google Firebase called Google Services.
    ```
 
 </p>
@@ -51,7 +53,7 @@ The iOS App, not working because have a incompatibility with Firebase Core ^1.1.
    </p>
 
    <p align="center">
-      O Layout foi desenvolvido por <a href="https://instagram.com/tiagoluchtenberg">Tiago Luchtenberg</a>, e você pode acessá-lo no Figma:
+      Layout created by <a href="https://instagram.com/tiagoluchtenberg">Tiago Luchtenberg</a>, you can access on Figma:
 
    - <a href="https://www.figma.com/file/kLK7FYnWKMoN68sQXcSniu/PayFlow">Mobile</a> 📱
    </p>
