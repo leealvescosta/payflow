@@ -68,7 +68,7 @@ The iOS App, not working because have a incompatibility with Firebase Core ^1.1.
 
    ```
    - Clone this repo:
-   $ git clone https://github.com/leelavescosta/payflow.git
+   $ git clone https://github.com/leealvescosta/payflow.git
 
    - Enter on directory:
    $ cd payflow
